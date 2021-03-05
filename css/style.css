@@ -1,3 +1,73 @@
 body {
 	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+}
+
+.bg-white {
+	background: #fff;
+	padding: 30px 0 0;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+
+}
+
+.logo span .logo-text {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.logo-svg {
+	display: block;
+	width: 35px;
+	height: 36.23px;
+	background: url('../images/logo.svg');
+	margin-right: 10px;
+}
+
+.menu {
+	width: 451px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #4F5665;
+	font-weight: 400;
+}
+
+.check-in a {
+	font-size: 16;
+	font-weight: 500;
+	color: #000;
+	text-decoration: none;
+}
+
+.check-in button {
+	font-size: 16;
+	font-weight: 500;
+	width: 150px;
+	height: 45px;
+	color: #F53855;
+	background-color: transparent;
+	border: 1px solid #F53855;
+	border-radius: 50px;
+	margin-left: 30px;
 }
