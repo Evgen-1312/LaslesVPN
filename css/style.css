@@ -5,8 +5,8 @@ html {
 *,
 *::after,
 *::before {
-	/* border: 1px dashed black; */
-	box-sizing: inherit;
+	border: 1px dashed black;
+	/* box-sizing: inherit; */
 }
 
 body {
@@ -20,19 +20,17 @@ a {
 }
 
 /* ===Header=== */
+
+.header {
+	padding: 46px 0 0;
+}
+
 .container {
 	max-width: 1140px;
-	padding: 50px 0;
 	margin: 0 auto;
 }
 
 /* ===Header__top=== */
-.header__top-inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
 .logo {
 	font-size: 20px;
 	font-weight: 500;
@@ -44,7 +42,7 @@ a {
 	display: block;
 	width: 38px;
 	height: 39px;
-	background-image: url('../images/logo.svg');
+	background: url('../images/logo.svg');
 	background-repeat: no-repeat;
 	margin-right: 10px;
 }
@@ -72,10 +70,12 @@ a {
 
 .btn__border-red {
 	border: 1px solid #F53855;
-	border-radius: 20px;
-	background-color: transparent;
+	border-radius: 50px;
+	/* background-color: transparent; */
 	color: #F53855;
 	padding: 10px 40px;
+	/* box-sizing: border-box; */
+	line-height: 19px;
 }
 
 /* ===Header__top(end)=== */
@@ -83,13 +83,19 @@ a {
 
 
 /* ==header__content=== */
+.header__content {
+	background: cyan;
+	padding: 88px 0;
+}
+
 .inner {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .content-titles {
-	width: 555px;
+	/* width: 565px; */
 }
 
 .content-title {
@@ -104,16 +110,19 @@ a {
 }
 
 .title-description {
+	width: 555px;
 	font-size: 16px;
 	font-weight: 400;
 	color: #4F5665;
+	line-height: 30px;
+	margin-bottom: 50px;
 }
 
 .title-description-span {
 	font-weight: 500;
 }
 
-.btn {
+.btn-red {
 	font-size: 16px;
 	line-height: 25px;
 	font-weight: 700;
@@ -134,14 +143,13 @@ a {
 /* == Header-footer=== */
 .skills {
 	display: flex;
-	justify-content: space-around;
-	/* margin-top: 50px; */
-	/* border-radius: 20px; */
-	box-shadow: -0px 20px 11px 0px #0D1025;
+	justify-content: space-evenly;
+	/* margin-top: 150px; */
+	/* box-shadow: -0px 20px 11px 0px #0D1025; */
 }
 
 .skill {
-	width: 274px;
+	width: 154px;
 	height: 150px;
 	background: url('../images/users.jpg') no-repeat left center;
 	padding-left: 90px;
@@ -154,7 +162,7 @@ a {
 
 .skill-servers {
 	background: url('../images/servers.jpg') no-repeat left center;
-	border: none;
+	border-right: none;
 }
 
 .skill-title {
@@ -172,3 +180,6 @@ a {
 }
 
 /* == Header-footer(end)=== */
+
+/* === Features(особенности)=== */
+/* === Features(особенности)(end)=== */
