@@ -165,6 +165,7 @@ a {
 	border-right: none;
 }
 
+<<<<<<< HEAD
 .skill-title {
 	margin: 40px 0 0;
 	font-size: 25px;
@@ -183,3 +184,43 @@ a {
 
 /* === Features(особенности)=== */
 /* === Features(особенности)(end)=== */
+=======
+/* == Header-footer=== */
+.header-footer_inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__footer-users {
+	/* display: block; */
+	/* display: flex;
+	justify-self: space-around; */
+	width: 274px;
+	/* height: 125px; */
+	/* margin: 60px 0; */
+	background: url('../images/user.jpg') no-repeat left;
+	padding-left: 36px;
+}
+
+.header__footer-user--bolt {
+	font-size: 25px;
+	font-weight: 700;
+	color: #0B132A;
+	margin-right: 40px
+}
+
+.header__footer-user {
+	font-size: 20px;
+	font-weight: 400;
+	color: #4F5665;
+	text-align: center;
+}
+
+.footer-locations {
+		background: url('../images/location.jpg') no-repeat left;
+}
+
+.footer-servers {
+	background: url('../images/server.jpg') no-repeat left;
+}
+>>>>>>> LaslesVPN/master
