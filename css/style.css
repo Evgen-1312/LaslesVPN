@@ -5,8 +5,7 @@ html {
 *,
 *::after,
 *::before {
-	border: 1px dashed black;
-	/* box-sizing: inherit; */
+	box-sizing: inherit;
 }
 
 body {
@@ -71,10 +70,9 @@ a {
 .btn__border-red {
 	border: 1px solid #F53855;
 	border-radius: 50px;
-	/* background-color: transparent; */
+	background-color: transparent;
 	color: #F53855;
 	padding: 10px 40px;
-	/* box-sizing: border-box; */
 	line-height: 19px;
 }
 
@@ -84,7 +82,6 @@ a {
 
 /* ==header__content=== */
 .header__content {
-	background: cyan;
 	padding: 88px 0;
 }
 
@@ -92,10 +89,6 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.content-titles {
-	/* width: 565px; */
 }
 
 .content-title {
@@ -144,12 +137,10 @@ a {
 .skills {
 	display: flex;
 	justify-content: space-evenly;
-	/* margin-top: 150px; */
-	/* box-shadow: -0px 20px 11px 0px #0D1025; */
 }
 
 .skill {
-	width: 154px;
+	width: 274px;
 	height: 150px;
 	background: url('../images/users.jpg') no-repeat left center;
 	padding-left: 90px;
@@ -165,7 +156,6 @@ a {
 	border-right: none;
 }
 
-<<<<<<< HEAD
 .skill-title {
 	margin: 40px 0 0;
 	font-size: 25px;
@@ -184,43 +174,3 @@ a {
 
 /* === Features(особенности)=== */
 /* === Features(особенности)(end)=== */
-=======
-/* == Header-footer=== */
-.header-footer_inner {
-	display: flex;
-	justify-content: space-around;
-}
-
-.header__footer-users {
-	/* display: block; */
-	/* display: flex;
-	justify-self: space-around; */
-	width: 274px;
-	/* height: 125px; */
-	/* margin: 60px 0; */
-	background: url('../images/user.jpg') no-repeat left;
-	padding-left: 36px;
-}
-
-.header__footer-user--bolt {
-	font-size: 25px;
-	font-weight: 700;
-	color: #0B132A;
-	margin-right: 40px
-}
-
-.header__footer-user {
-	font-size: 20px;
-	font-weight: 400;
-	color: #4F5665;
-	text-align: center;
-}
-
-.footer-locations {
-		background: url('../images/location.jpg') no-repeat left;
-}
-
-.footer-servers {
-	background: url('../images/server.jpg') no-repeat left;
-}
->>>>>>> LaslesVPN/master

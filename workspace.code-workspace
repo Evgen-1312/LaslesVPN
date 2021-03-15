@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\BEM_Vadim-ProKopchuk"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BEM_Vadim-ProKopchuk"
+	}
+}
