@@ -4,10 +4,76 @@
 			"path": "."
 		},
 		{
-			"path": "..\\BEM_Vadim-ProKopchuk"
+			"path": "..\\..\\Carsharing LUX cars"
+		},
+		{
+			"path": "..\\43Sd"
 		}
 	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "BEM_Vadim-ProKopchuk"
-	}
+   "settings": {
+      "liveServer.settings.multiRootWorkspaceName": "Carsharing LUX cars"
+   },
+   "extensions": {
+      "recommendations": [
+         "tobiasalthoff.atom-material-theme",
+         "formulahendry.auto-close-tag",
+         "msjsdiag.debugger-for-chrome",
+         "syler.sass-indented",
+         "roman.git-autocommit",
+         "golang.go-nightly",
+         "wscats.eno",
+         "pkief.material-icon-theme",
+         "equinusocio.vsc-material-theme",
+         "fredrikaverpil.vscode-material-theme",
+         "jprestidge.theme-material-theme",
+         "nimda.deepdark-material",
+         "vangware.dark-plus-material",
+         "ms-vscode.theme-materialkit",
+         "equinusocio.vsc-community-material-theme",
+         "equinusocio.vsc-material-theme-icons",
+         "formulahendry.auto-complete-tag",
+         "atishay-jain.all-autocomplete",
+         "formulahendry.auto-rename-tag",
+         "avocode.avocode",
+         "teabyii.ayu",
+         "coenraads.bracket-pair-colorizer",
+         "ms-vscode.brackets-pack",
+         "compulim.compulim-vscode-closetag",
+         "formulahendry.code-runner",
+         "pranaygp.vscode-css-peek",
+         "kubosho.ecsstractor",
+         "diz.ecsstractor-port",
+         "ivangabriele.vscode-git-add-and-commit",
+         "exelord.git-commits",
+         "mhutchie.git-graph",
+         "donjayamanne.githistory",
+         "paragdiwan.gitpatch",
+         "srmeyers.git-prefix",
+         "huazaierli.start-bash",
+         "redjue.git-commit-plugin",
+         "ambooth.git-rename",
+         "knisterpeter.vscode-github",
+         "golang.go",
+         "premparihar.gotestexplorer",
+         "zignd.html-css-class-completion",
+         "xabikos.javascriptsnippets",
+         "kiteco.kite",
+         "ritwickdey.live-sass",
+         "ritwickdey.liveserver",
+         "74th.monokai-charcoal-high-contrast",
+         "codetin.monokai-orange",
+         "monokai.theme-monokai-pro-vscode",
+         "datvo.theme-monokai-v2",
+         "algor.monokaiplus",
+         "whizkydee.material-palenight-theme",
+         "ionutvmi.path-autocomplete",
+         "esbenp.prettier-vscode",
+         "ms-ceintl.vscode-language-pack-ru",
+         "sibiraj-s.vscode-scss-formatter",
+         "mccarter.start-git-bash",
+         "vscode-icons-team.vscode-icons",
+         "akamud.vscode-theme-onedark",
+         "kuscamara.electron"
+      ]
+   }
 }
