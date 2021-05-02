@@ -472,13 +472,10 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
-
-
 /* =====NETWORK(end)===== */
 
 
 /* =====COMENTS===== */
-
 .coments__title {
     width: 447px;
     font-weight: 500;
@@ -498,6 +495,4 @@ ul {
     padding-bottom: 60px;
     color: #4F5665;
 }
-
-
 /* =====COMENTS(end)===== */
