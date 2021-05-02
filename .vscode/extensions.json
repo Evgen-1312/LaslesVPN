@@ -1,6 +1,7 @@
 {
    "recommendations": [
       "equinusocio.vsc-material-theme",
-      "fredrikaverpil.vscode-material-theme"
+      "fredrikaverpil.vscode-material-theme",
+      "streetsidesoftware.code-spell-checker"
    ]
 }
