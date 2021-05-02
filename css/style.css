@@ -479,5 +479,23 @@ ul {
 
 /* =====COMENTS===== */
 
+.coments__title {
+    width: 447px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    margin: 120px auto 20px;
+}
+
+.coments__dicsription {
+    width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 /* =====COMENTS(end)===== */
