@@ -497,11 +497,4 @@ ul {
    color: #4F5665;
 }
 
-img {
-   -webkit-user-select: none;
-   margin: auto;
-   background-color: hsl(0, 0%, 90%);
-   transition: background-color 300ms;
-}
-
 /* =====COMENTS(end)===== */
