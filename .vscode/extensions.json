@@ -66,6 +66,12 @@
       "ms-vsliveshare.vsliveshare-audio",
       "pkief.material-icon-theme",
       "equinusocio.vsc-material-theme-icons",
-      "ms-vscode.theme-materialkit"
+      "ms-vscode.theme-materialkit",
+      "auchenberg.vscode-browser-preview",
+      "wscats.eno",
+      "syler.sass-indented",
+      "mccarter.start-git-bash",
+      "ms-vscode.sublime-keybindings",
+      "ms-vscode.vs-keybindings"
    ]
 }
