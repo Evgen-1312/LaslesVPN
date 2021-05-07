@@ -653,7 +653,7 @@
     
     .coments__subscrip-title {
         margin: 0 auto;
-        width: 371px;
+        width: 410px;
         color: #0B132A;
         font-weight: 500;
         font-size: 35px;
@@ -662,6 +662,7 @@
     
     .coments__subscrip-subtitle {
         color: #4F5665;
+        text-align: left;
         width: 410px;
         font-weight: 400;
         font-size: 16px;
@@ -669,9 +670,9 @@
     }
     
     .coments__subscrp-btn {
-        margin-left: 370px;
+        margin-left: 340px;
         width: 250px;
-        height: 60px;
+        height: 85px;
         border-radius: 10px;
         background-color: #F53838;
         text-align: center;
