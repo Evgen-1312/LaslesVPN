@@ -634,28 +634,25 @@
     .coments__subscrip {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: -317px;
         max-width: 1140px;
         width: 100%;
         height: 233px;
-        margin: 0 auto;
+        margin: 0px auto;
         border-radius: 10px;
-        border: solid 2px #dddddd;
-        box-shadow: 0 39px 114px rgba(13, 16, 37, .0.6);
+        border: solid 2px #DDDD;
+        box-shadow: 0 39px 114px rgba(13, 16, 37, .06);
         background-color: #fff;
     }
     
-    .coments__subscrp-conteiner {
-        display: flex;
-        flex-direction: column;
-    }
+    .coments__subscrip-conteiner {}
     
-    .comnets__subscrip-title {
-        margin: 0;
+    .coments__subscrip-title {
+        margin: 0 auto;
         width: 371px;
         color: #0B132A;
         font-weight: 500;
@@ -672,7 +669,7 @@
     }
     
     .coments__subscrp-btn {
-        margin-left: 167px;
+        margin-left: 370px;
         width: 250px;
         height: 60px;
         border-radius: 10px;
@@ -684,5 +681,10 @@
         line-height: 25px;
         box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
         transition: .3s;
+    }
+    
+    .coments__subscrp-btn:hover {
+        transform: scale(1.2);
+        transition: .3;
     }
     /* ===COMENTS__SUBSCRP(end)==== */
