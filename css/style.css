@@ -875,6 +875,7 @@ ul {
     line-height: 30px;
     margin-bottom: 10px;
     color: #4F5665;
+    padding: 0;
 }
 
 .footer__help-item:last-child {
