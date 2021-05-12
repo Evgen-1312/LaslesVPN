@@ -1,18 +1,23 @@
-// $(function () {
+const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    // direction: 'vertical',
+    // loop: true,
+    slidesPerView: 2,
+    spaceBetween: 10,
 
-//    $('.reviews__slider').slick({
-//       arrows: false,
-//       dots: true,
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-//    });
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
 
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 
-new Swiper('.swiper-container', {
-   slidesPerView: 3,
-   spaceBetween: 30,
-   pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-   },
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
 });
