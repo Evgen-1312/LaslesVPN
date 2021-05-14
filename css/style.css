@@ -6,11 +6,11 @@ body {
 }
 
 
-/* ===RESET=== */
+/* !===RESET=== */
 
 * {
     box-sizing: border-box;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 a {
@@ -40,10 +40,10 @@ ul {
 }
 
 
-/* ========RESET(end)========= */
+/* todoo===RESET(end)=== */
 
 
-/* ===HEADER=== */
+/* !===HEADER=== */
 
 .header {
     width: 100%;
@@ -51,7 +51,7 @@ ul {
 }
 
 .header__conteiner {
-    max-width: 1209px;
+    max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -65,6 +65,13 @@ ul {
     margin: 0 auto;
     height: 91px;
     padding-top: 46px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
 }
 
 .header__menu {
@@ -184,10 +191,10 @@ ul {
 }
 
 
-/* ===HEADER(END)=== */
+/* todoo===HEADER(END)=== */
 
 
-/* ===ADVANTAGES==== */
+/* !===ADVANTAGES==== */
 
 .advantages {
     width: 100%;
@@ -234,10 +241,10 @@ ul {
 }
 
 
-/* ===ADVANTAGES(END)==== */
+/* todoo===ADVANTAGES(END)==== */
 
 
-/* ======FUNCTIONS===== */
+/* !======FUNCTIONS===== */
 
 .functions {
     width: 100%;
@@ -304,10 +311,10 @@ ul {
 }
 
 
-/* ===FUNCTIONS(END)===== */
+/* todoo===FUNCTIONS(END)===== */
 
 
-/* ======BG__GRADIENT========= */
+/* !======BG__GRADIENT========= */
 
 .bg__gradient {
     width: 100%;
@@ -449,10 +456,10 @@ ul {
 }
 
 
-/* =====PLAN(end)===== */
+/* todoo=====PLAN(end)===== */
 
 
-/* ===NETWORK=== */
+/* !===NETWORK=== */
 
 .network {
     width: 100%;
@@ -504,10 +511,10 @@ ul {
 }
 
 
-/* =====NETWORK(end)===== */
+/* todoo=====NETWORK(end)===== */
 
 
-/* =====COMENTS===== */
+/* !=====COMENTS===== */
 
 .coments {
     width: 100%;
@@ -619,10 +626,10 @@ ul {
 }
 
 
-/* =====COMENTS(end)===== */
+/* todoo=====COMENTS(end)===== */
 
 
-/* ===COMENTS__SLIDER-CONTROL=== */
+/* !===COMENTS__SLIDER-CONTROL=== */
 
 .coments__slider-control {
     display: flex;
@@ -687,10 +694,10 @@ ul {
 }
 
 
-/* =====COMENTS__SLIDER-CONTROL(end)===== */
+/* todoo=====COMENTS__SLIDER-CONTROL(end)===== */
 
 
-/* ===COMENTS__SUBSCRP ==== */
+/* !===COMENTS__SUBSCRP ==== */
 
 .coments__subscrip {
     display: flex;
@@ -753,10 +760,10 @@ ul {
 }
 
 
-/* ===COMENTS__SUBSCRP(end)==== */
+/* todoo===COMENTS__SUBSCRP(end)==== */
 
 
-/* ====FOOTER=== */
+/* !====FOOTER=== */
 
 .footer {
     width: 100%;
@@ -894,6 +901,6 @@ ul {
 }
 
 
-/* ====FOOTER(end)=== */
+/* todoo====FOOTER(end)=== */
 
 @media (max-width: 1140px) {}
